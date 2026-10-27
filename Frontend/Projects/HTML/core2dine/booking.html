@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <h1>Grand Core2Dine Hotel - Booking</h1>
+
+        <p>Complete the form below to reserve your room.</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="rooms.html">Rooms</a> |
+            <a href="room-comparison.html">Room-Comparison</a> | 
+            <a href="booking.html">Bookings</a> |
+            <a href="restaurant.html">Restaurant</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="facilities.html">Facilities</a> |
+            <a href="media.html">Media</a> |
+            <a href="contact.html">contact&FAQ</a>
+        </nav>
+    </header>
+ 
+    <hr>
+
+    <main>
+
+        <h2>Hotel Booking Form</h2>
+        <p>Please provide the requirement information to complete you hotel reservation</p>
+        <form>
+            <fieldset>
+                <legend><b>Guest Information</b></legend>
+                
+                <label>Full Name: </label> <br>
+                <input type="text" placeholder="Enter your full name"> <br><br>
+
+                <label>Email Address: </label> <br>
+                <input type="email" placeholder="example@email.com"> <br><br>
+
+                <label>Phone Number: </label> <br>
+                <input type="tel" placeholder="Enter 20 digit phone number" min="10"> 
+            </fieldset>
+            
+            <fieldset>
+                <legend><b>Stay Details</b></legend>
+                
+                <label>Check-in Date: </label> <br>
+                <input type="date" > <br><br>
+                <label>Check-out Date: </label> <br>
+                <input type="date"> <br><br>
+                <label>Number of Guests: </label> <br>
+                <input type="number" width="50px"> <br><br>
+                <label>Room Type: </label> <br>
+                <select>
+                    <option value="" selected disabled>--Select Room Type--</option>
+                    <option value="">Standard Room</option>
+                    <option value="">Deluxe Room</option>
+                    <option value="">Executive Room</option>
+                    <option value="">Family Suite</option>
+                    <option value="">Presidential Suite</option>
+                </select>> <br><br>
+                <label>Number of Rooms: </label> <br>
+                <input type="number" width="50px"> 
+            </fieldset>
+            
+            <fieldset>
+                <legend><b>Meal Preference</b></legend>
+                 <br>
+                <label for="">Select you meal Preference:</label><br> <br>
+                <input type="radio" name="" id=""> Vegetarian <br>
+                <input type="radio" name="" id=""> Non-Vegetarian <br>
+                <input type="radio" name="" id=""> Vegan
+            </fieldset>
+            
+            <fieldset>
+
+                <legend><b>Airport Pickup</b></legend>
+                <br>
+                <label for="">Do you require airport pickup?</label>
+                <br> <br>
+
+                <input type="radio" name="" id=""> Yes <input type="radio" name="" id=""> No
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Additional Information</b></legend>
+                <label for="">Special Requests:</label> <br>
+                <textarea name="" id="" style="width: 600px; height: 100px;">Enter any special requests...</textarea>
+                <br> <br>
+                <label for="">ID Proof Upload:</label> <br>
+                <input type="file" name="" id=""> <br> <br>
+                <input type="checkbox" name="" id=""> I agree to find the hotel terms and conditions.
+            </fieldset>
+            <fieldset>
+                <legend><b>Submit Booking</b></legend>
+                <button type="submit">Submit Booking</button>
+                <button type="reset">Reset Form</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy;2026 Grand Core2Dine Hotel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
